@@ -1,6 +1,7 @@
 import './globals.css';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
+
 export const metadata = {
   title: 'Iliana Stoyanova',
   description: 'Pianist and piano teacher based in Vienna, Austria',
