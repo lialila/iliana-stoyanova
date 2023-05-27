@@ -1,3 +1,4 @@
+import './globals.css';
 import Image from 'next/image';
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
         />
       </div>
       <div>
-        <h2>2023</h2>
+        <h2 className="text-3xl font-bold underline">2023</h2>
         <div>
           <h4>25 Mai</h4>
           <h5>Russisches Kulturzentrum</h5>
