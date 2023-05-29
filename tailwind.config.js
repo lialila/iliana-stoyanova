@@ -6,13 +6,33 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+    spacing: {
+      1: '8px',
+      2: '12px',
+      3: '16px',
+      4: '24px',
+      5: '32px',
+      6: '48px',
+    },
+    extend: {
+      colors: {
+        violet: '#41314a',
+        darkViolet: '#240d30',
+        grey: '#f5f5f5',
+        darkGrey: '#273444',
+        lightGrey: '#d3dce6',
+      },
+    },
+    fontFamily: {
+      sans: ['Supply', 'sans-serif'],
+      // sans: ['IBM Plex Mono', 'monospace'],
+    },
   },
   plugins: [],
 };
-// violet: '#41314a',
-// violet: '#55286F',
-// 'dark-violet': '#240d30',
-// gray: '#f5f5f5',
-//   'gray-dark': '#273444',
-// 'gray-light': '#d3dce6',

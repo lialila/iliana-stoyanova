@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <nav>
+        <nav className="border-b-2">
           <h1>Iliana Stoyanova</h1>
           <div>
             <Link href="/">Home</Link>|<Link href="/biografie">Biografie</Link>|
@@ -26,7 +26,7 @@ export default function RootLayout({
         {children}
         <footer>
           <h3>Kontakt</h3>
-          <ul>
+          <ul className="flex">
             <li>
               <Image
                 src="/logos/email.png"
